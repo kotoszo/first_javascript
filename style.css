@@ -1,0 +1,18 @@
+.first_div table {
+    float: left;
+    font-size: 72px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 75px;
+    border: 2px solid black;
+    width: 640px;
+}
+td {
+    border: 1px solid black;
+}
+h1 {
+    text-align: center;
+}
+#so_far {
+    max-block-size: 450px;
+}

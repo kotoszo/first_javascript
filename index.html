@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>Calculatus</title>
+        <h1>The calculator 2000!</h1>
+    </head>
+    <body>
+        <div class=first_div>
+        <table>
+            <tr>
+                <td id=pointless onclick="magic()">NL</td>
+                <td onclick="main('%', 'true')">%</td>
+                <td >(Y)</td>
+                <td onclick=reset()>C</td>
+            </tr>
+            <tr>
+                <td onclick="main(7)">7</td>
+                <td onclick="main(8)">8</td>
+                <td onclick="main(9)">9</td>
+                <td onclick="main('/', 'true')">/</td>
+            </tr>
+            <tr>
+                <td onclick="main(4)">4</td>
+                <td onclick="main(5)">5</td>
+                <td onclick="main(6)">6</td>
+                <td onclick="main('*', 'true')">*</td>
+            </tr>
+            <tr>
+                <td onclick="main(1)">1</td>
+                <td onclick="main(2)">2</td>
+                <td onclick="main(3)">3</td>
+                <td onclick="main('-', 'true')">-</td>
+            </tr>
+            <tr>
+                <td onclick="main(0)">0</td>
+                <td onclick="floatie()">,</td>
+                <td onclick="finito()">=</td>
+                <td onclick="main('+', 'true')">+</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td id=result></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Results</td>
+            </tr>
+            <tr>
+                <td id=so_far></td>
+            </tr>
+        </table>
+        </div>
+        <table>
+            <tr>
+                <th>Statistics</th>
+            </tr>
+            <tr>
+                <td>Addition</td>
+                <td id="+"></td>
+            </tr>
+            <tr>
+                <td>Subtraction</td>
+                <td id='-'></td>
+            </tr>
+            <tr>
+                <td>Multiplication</td>
+                <td id="*"></td>
+            </tr>
+            <tr>
+                <td>Division</td>
+                <td id="/"></td>
+            </tr>
+            <tr>
+                <td>Modulo</td>
+                <td id="%"></td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
